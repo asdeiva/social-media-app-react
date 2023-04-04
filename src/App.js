@@ -100,7 +100,7 @@ function App() {
       <Router>
         <div>
           <nav className="navbar">
-            <Link to="#">Social Media App</Link>
+            <Link to="/">Social Media App</Link>
           </nav>
           <Routes>
             <Route path="/" element={<Home />} />
